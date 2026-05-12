@@ -1,0 +1,20 @@
+{
+  "name": "liliclean-email-agent",
+  "version": "1.0.0",
+  "description": "Agent email Gmail + Claude AI pour LiliCleanServices",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node --watch agent.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5",
+    "nodemailer": "^6.9.13"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
