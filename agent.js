@@ -137,7 +137,7 @@ async function generateReply(fromEmail, newMessage) {
   const history = getHistory(fromEmail);
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-5-20251001",
     max_tokens: 1000,
     system: SYSTEM_PROMPT,
     messages: history,
